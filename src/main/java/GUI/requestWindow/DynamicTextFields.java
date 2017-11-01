@@ -1,19 +1,18 @@
 package GUI.requestWindow;
 
-        import javax.swing.*;
-        import java.awt.*;
+import javax.swing.*;
+import java.awt.*;
 
 public class DynamicTextFields extends JTextField {
-    RequestWindow requestWindow;
-    DynamicTextFieldActionListener dynamicTextFieldActionListener;
-    DynamicTextFields( RequestWindow requestWindow) {
-        this.requestWindow = requestWindow;
-        this.setColumns(15);
-                addActionListener(new DynamicTextFieldActionListener(requestWindow, this));
+public  RequestWindow requestWindow;
+public  TextFieldListener textFieldListener;
 
-    }
-    public void addTextDynamicTextFIeldListener(DynamicTextFieldActionListener dynamicTextFieldActionListener){
-        this.dynamicTextFieldActionListener = dynamicTextFieldActionListener;
-
-    }
+   public DynamicTextFields(RequestWindow requestWindow) {
+       this.setColumns(15);
+       this.requestWindow = requestWindow;
+       this.addActionListener( new TextFieldListener(requestWindow));
+   }
+          public  void addtextfieldlistener(TextFieldListener textFieldListener){
+       this.textFieldListener = textFieldListener;
+          }
 }
