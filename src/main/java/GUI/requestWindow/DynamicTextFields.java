@@ -4,13 +4,13 @@ import javax.swing.*;
 import java.awt.*;
 
 public class DynamicTextFields extends JTextField {
-public  RequestWindow requestWindow;
+public  WindowPartsRequest windowPartsRequest;
 public  TextFieldListener textFieldListener;
 
-   public DynamicTextFields(RequestWindow requestWindow) {
+   public DynamicTextFields(WindowPartsRequest windowPartsRequest) {
        this.setColumns(15);
-       this.requestWindow = requestWindow;
-       this.addActionListener( new TextFieldListener(requestWindow));
+       this.windowPartsRequest = windowPartsRequest;
+       this.addActionListener( new TextFieldListener(windowPartsRequest));
    }
           public  void addtextfieldlistener(TextFieldListener textFieldListener){
        this.textFieldListener = textFieldListener;

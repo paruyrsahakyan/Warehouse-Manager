@@ -4,16 +4,18 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class TextFieldListener  implements ActionListener{
-    private RequestWindow requestWindow;
+    private WindowPartsRequest windowPartsRequest;
+
 //    private DynamicTextFields dynamicTextFields;
 
-    TextFieldListener(RequestWindow requestWindow)
+    TextFieldListener(WindowPartsRequest windowPartsRequest)
         {
-    this.requestWindow = requestWindow;
+
+    this.windowPartsRequest = windowPartsRequest;
 //    this.dynamicTextFields = dynamicTextFields;
     }
     public void actionPerformed(ActionEvent e) {
-        requestWindow.add(new DynamicTextFields(requestWindow));
-        requestWindow.setVisible(true);
+        windowPartsRequest.addTextField();
+        windowPartsRequest.setVisible(true);
     }
 }

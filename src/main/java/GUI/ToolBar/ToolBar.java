@@ -1,4 +1,4 @@
-package GUI;
+package GUI.ToolBar;
 
 import toDB.FromXLStoDB;
 import javax.swing.*;
@@ -15,15 +15,14 @@ public class ToolBar extends JPanel {
     private JButton e1111;
     private JButton h1111;
 
-    ToolBar() {
+    public ToolBar() {
         this.setLayout(new FlowLayout(FlowLayout.LEFT));
         this.setBorder(BorderFactory.createEtchedBorder());
     request = new JButton("Request");
 
     request.addActionListener(new ActionListener() {
         public void actionPerformed(ActionEvent e) {
-            RequestWindow requestWindow = new RequestWindow();
-
+            WindowPartsRequest windowPartsRequest = new WindowPartsRequest();
 
         }
     });
