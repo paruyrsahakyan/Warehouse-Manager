@@ -13,8 +13,8 @@ public class ListenerRequest implements ActionListener  {
     }
 
     public void actionPerformed(ActionEvent e) {
-        ArrayList<String>  requestedParts = windowPartsRequest.getRequestedParts();
-        windowPartsRequest.showRequestResult(requestedParts);
+        ArrayList<RequestedPart>  requestedParts = windowPartsRequest.getRequestedParts();
+        windowPartsRequest.getPanelResult().showResult(requestedParts);
         }
        }
 

@@ -1,6 +1,7 @@
 package SQL;
 
 import BasicNames.Name;
+import GUI.requestWindow.RequestedPart;
 import xlsParser.Action;
 import xlsParser.PartInStock;
 
@@ -103,21 +104,24 @@ public String tableOfActions() {
 
     ////////////////////////   PARTS REQUEST QUERY   ///////////////
 
-    public String partsRequest(ArrayList<String> partsList) {
+    public String partsRequest(ArrayList<RequestedPart> partsList) {
+
         int partsQuantity = partsList.size();
         String currentPartNumber;
-        currentPartNumber = partsList.get(0);
+        currentPartNumber = partsList.get(0).getPartNumber();
         String query = "SELECT * FROM " + dbName + "." +partTableName+
                  " where partNumber =" + " '" +currentPartNumber+ "' ";
 
         for (int i = 1; i < partsQuantity; i++) {
-            currentPartNumber = partsList.get(i);
+            currentPartNumber = partsList.get(i).getPartNumber();
             query = query + "or partNumber =" + " '" + currentPartNumber +"' ";
         }
         query = query + ";";
         return query;
 
     }
+
+
 
 
 }

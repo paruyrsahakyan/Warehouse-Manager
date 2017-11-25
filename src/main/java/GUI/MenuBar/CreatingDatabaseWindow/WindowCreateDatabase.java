@@ -41,12 +41,6 @@ public class WindowCreateDatabase extends JFrame {
         ListenerForCreateButton listenerForCreateButton = new ListenerForCreateButton();
         listenerForCreateButton.setWindow(this);
         buttonCreateDB.addActionListener(listenerForCreateButton);
-//        listenerForCreateButton.setSourcePath(textFieldXlsPath);
-//        ListenerForCreateButton2 listenerForCreateButton2 = new ListenerForCreateButton2();
-//        listenerForCreateButton2.setSourcePath(textFieldXlsPath);
-//        listenerForCreateButton.setTextFieldDbName(textFieldDbName);
-//          buttonCreateDB.addActionListener(listenerForCreatButton);
-//            buttonCreateDB.addActionListener(listenerForCreateButton);
 
         jProgressBar = new JProgressBar();
         jProgressBar.setIndeterminate(true);

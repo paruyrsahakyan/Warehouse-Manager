@@ -16,8 +16,6 @@ import java.util.Iterator;
 public class ImportToDB {
 
     private  final String DBname = "warehousedb" ;
-//    private  String actionsTableName = "actions";
-//    private  String partsTableName = "parts";
     private  String user;    /// = "root";
     private  String password;     //= "729326";
     private  String url; // = "jdbc:mysql://localhost:3306/"+DBname+"?autoReconnect=true&useSSL=false";
@@ -39,7 +37,7 @@ public class ImportToDB {
         }
     }
 
-    /////////////////////////// IMPORT ACTIONS///////////////////////////////////////////
+    /////////////////////////// IMPORT ACTIONS AND PARTS///////////////////////////////////////////
 
 public void importActionsAndParts(ArrayList<Action> actionList) {
 
@@ -50,16 +48,13 @@ public void importActionsAndParts(ArrayList<Action> actionList) {
         Iterator actionItr = actionList.iterator();
         Action currentAction;
             int k = 0;
-//        progressBar.setMinimum(0);
-//        progressBar.setMaximum(1000);
 
             while (actionItr.hasNext()) {
-                currentAction = (Action) actionItr.next(); // geting the next action
+                currentAction = (Action) actionItr.next(); // getting the next action
                 QueryFactory query = new QueryFactory();                      //
                 String currentSQL = query.actionInsertQuery(currentAction);  //creating query for adding current action
                  stmt.execute(currentSQL);
                 k++;
-//                progressBar.setValue( k);
 
                 System.out.println(k + " action");   // just for visualization of importing process.
             }
@@ -108,6 +103,5 @@ public void importActionsAndParts(ArrayList<Action> actionList) {
         public void setProgressBar(JProgressBar jProgressBar){
         this.progressBar = jProgressBar;
         }
-
 
 }

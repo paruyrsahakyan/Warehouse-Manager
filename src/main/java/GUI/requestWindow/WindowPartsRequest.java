@@ -9,38 +9,41 @@ public class WindowPartsRequest extends JFrame {
     private PanelRequestParts panelRequestParts;
     private PanelResult panelResult;
     private ArrayList<DynamicTextFields> listTextField;
-    private int partsQuantity;
+    private int partCursor;
 
     public WindowPartsRequest() {
-        partsQuantity = 0;
+        partCursor = -1;
         panelRequestParts = new PanelRequestParts(this);
         panelResult = new PanelResult(this);
         listTextField = new ArrayList<DynamicTextFields>();
 
         this.setTitle("PartsRequest");
         this.setLocationByPlatform(true);
-        this.setSize(600, 400);
+        this.setSize(1150, 400);
         this.setLayout(new BorderLayout());
         this.add(panelRequestParts, BorderLayout.WEST);
         this.add(panelResult, BorderLayout.CENTER);
         this.setVisible(true);
-        //        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
-
 
     }
 
     public void addTextField() {
-        listTextField.add(new DynamicTextFields(this));
+        listTextField.add(new DynamicTextFields(this)); // adding a new DynamicTextFields() into Arraylist ,it  to make possible to refer that  DynamicTextField further;
+        partCursor++; //  this variable  serves as a cursor, for referring the DynamicTextField that we added into Array list.
+        this.panelRequestParts.add(new JLabel("p/n"));  // before adding a Dynamic text field to the window we add a label "p/n".
+        this.panelRequestParts.add(listTextField.get(partCursor)); //we add the DynamicTextField to the window, which was created 2 rows above, and wich was added into Array list;
+        this.panelRequestParts.getListTextField().add(this.listTextField.get(partCursor)); //this for adding that DynamicTextField into special ArrayList of panelRequestParts, for further usage.
+        this.panelRequestParts.add(new JLabel("    q.-ty")); //before adding a Dynamic text field to the window we add a label "q.-ty".
+        this.panelRequestParts.add(listTextField.get(partCursor).getQuantityTextField()); //adding text field  of parts quantity, this text field is a defined in DynamicTextField "field of Dy..." ;
 
-        this.panelRequestParts.add(listTextField.get(partsQuantity));
-        partsQuantity++;
     }
 
-    public void showRequestResult(ArrayList<String> parts) {
-        this.panelResult.showResult(parts);
+    public PanelResult getPanelResult() {
+        return panelResult;
     }
 
-      public  ArrayList<String > getRequestedParts() {
+
+      public  ArrayList<RequestedPart > getRequestedParts() {
         return this.panelRequestParts.getPartsList();
     }
 

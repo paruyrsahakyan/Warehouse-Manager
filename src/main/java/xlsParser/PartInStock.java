@@ -58,22 +58,20 @@ public class PartInStock {
 
                 if (actionPartNumber.equals(inStockPartNumber)) {
                     alreadyExist = true;
-                    if (currentAction.getIn_out().equals("вход")) {
-                        Date date = new Date();
-                        currentPartInStock.setQuantity(currentPartInStock.getQuantity() + currentAction.getQuantity());
-                        date = currentAction.getDate();
-                        currentPartInStock.setLastIncomeDate(date);
+                    double currentPartsQuantity = currentPartInStock.getQuantity();
+                    if (currentAction.getIn_out().equals("Вход")) {
+                        currentPartInStock.setQuantity(currentPartsQuantity + currentAction.getQuantity());
+                        currentPartInStock.setLastIncomeDate(currentAction.getDate());
                         break;
                     } else {
-                        currentPartInStock.setQuantity(currentPartInStock.getQuantity() - currentAction.getQuantity());
+                        currentPartInStock.setQuantity(currentPartsQuantity - currentAction.getQuantity());
                         break;
                     }
                 }
 
             }
             if (!alreadyExist) {
-                PartInStock newPartInStock = new PartInStock();
-                newPartInStock = currentAction.getPartInStock();
+                PartInStock newPartInStock = currentAction.getPartInStock();
                 result.add(newPartInStock);
             }
         }

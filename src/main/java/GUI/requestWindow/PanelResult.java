@@ -2,26 +2,35 @@ package GUI.requestWindow;
 
 import BasicNames.Name;
 import SQL.QueryFactory;
+
 import javax.swing.*;
+import javax.swing.border.Border;
+import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.sql.*;
 import java.util.ArrayList;
 
 public class PanelResult extends JPanel {
     private JTable table;
-    private QueryFactory query;
     private WindowPartsRequest windowPartsRequest;
+    private JScrollPane scrollpane;
 
     PanelResult(WindowPartsRequest windowPartsRequest) {
 
         this.windowPartsRequest = windowPartsRequest;
         this.setLayout(new BorderLayout());
+        this.table = new JTable();
+        this.scrollpane = new JScrollPane(table);
+        Border innerBorder = BorderFactory.createEmptyBorder(1, 1, 1, 1);
+        Border outerBorder = BorderFactory.createTitledBorder("Request Result");
+        this.setBorder(BorderFactory.createCompoundBorder(outerBorder, innerBorder));
+        this.add(scrollpane, BorderLayout.CENTER);
+
     }
 
-    public void showResult(ArrayList<String> partsList) {
-        String[] columnNames = {"Part Number", "Available", "Can Take"};
-
-        ////////////////////////////
+    public void showResult(ArrayList<RequestedPart> partsList) {
+        String[] columnNames = {"Part Number", "Req. Quantity",
+                "Can take", "Available in warehouse", "Unit", "Part Name", "Last Income Date"};
 
         Connection connection;
         try {
@@ -38,30 +47,23 @@ public class PanelResult extends JPanel {
             System.out.println(queryFactory.partsRequest(partsList));
             ResultSet resultSet = statement.executeQuery(queryFactory.partsRequest(partsList));
 
-            int matchedPartsQuantity = 0;
-            while (resultSet.next()) {matchedPartsQuantity++;}
+            ResultAndRequest resultAndRequest = new ResultAndRequest();
+            Object[][] parts = resultAndRequest.compareToRequest(partsList, resultSet);
 
-            Object parts[][] = new Object[matchedPartsQuantity][3];
-            resultSet.beforeFirst();
-            int k = 0;
+            DefaultTableModel defaultTableModel = new DefaultTableModel(parts, columnNames);
 
-            while (resultSet.next()) {
+            this.table.setModel(defaultTableModel);
 
-                parts[k][0] = resultSet.getString(3);
-                parts[k][1] = resultSet.getInt(5);
-                parts[k][2] = resultSet.getInt(5);
-                k++;
 
-            }
+//            this.add(table, BorderLayout.CENTER);
 
-            this.table = new JTable(parts, columnNames);
-            this.add(table, BorderLayout.CENTER);
             windowPartsRequest.setVisible(true);
-            statement.close(); connection.close();
+            statement.close();
+            connection.close();
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
 
-        }
     }
+}
