@@ -15,24 +15,33 @@ public class ConnectionWithDB {
     private String password = Name.PASSWORD;
     private Connection conn;
     private Statement statement;
+    private static ConnectionWithDB instance =null;
 
-    public void setConnection() {
+    private ConnectionWithDB() {
         try {
             Class.forName(driverName);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-
-
         try {
             conn = DriverManager.getConnection(url, user, password); //installing driver
             statement = conn.createStatement();
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-
     }
+
+    public static ConnectionWithDB getInstance (){
+
+        if (instance==null) {
+            instance = new ConnectionWithDB();
+                    }
+                    return instance;
+    }
+
+
+
+
 
     public void closeConnection() {
         try {

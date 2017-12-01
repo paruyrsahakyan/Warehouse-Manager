@@ -10,6 +10,7 @@ public class Name {
     public static final String PASSWORD = "729326";
     public static final String URL = "jdbc:mysql://localhost:3306/"+DB_NAME+"?autoReconnect=true&useSSL=false";
     public static final String DRIVER_NAME = "com.mysql.cj.jdbc.Driver";
+    public static final String EXCHANGEABLE_TABLE_NAME = "exchangeable";
 
 //    public static final  Date date;         // 0 column
 //    public static final  String in_out;         // 1

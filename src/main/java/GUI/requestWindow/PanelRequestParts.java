@@ -80,8 +80,7 @@ public class PanelRequestParts extends JPanel {
                 result.add(currentPart);
             }
         }
-        System.out.println(result);
-        return result;
+          return result;
     }
 
     public ArrayList<DynamicTextFields> getListTextField() {

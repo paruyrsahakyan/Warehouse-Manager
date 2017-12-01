@@ -93,6 +93,7 @@ public void importActionsAndParts(ArrayList<Action> actionList) {
             QueryFactory query = new QueryFactory();
             stmt.execute(query.tableOfActions());
             stmt.execute(query.tableOfParts());
+            stmt.execute(query.tableOfExchange());
             stmt.close();
             conn.close();}
     catch (SQLException e) {

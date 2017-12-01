@@ -3,6 +3,7 @@ package GUI.MainWindow;
 
 import GUI.MenuBar.MenuBarOfMainWindow;
 import GUI.ToolBar.ToolBar;
+import toDB.ConnectionWithDB;
 
 import java.awt.*;
 
@@ -16,5 +17,6 @@ public class MainWindow extends MainFrame{
            this.setJMenuBar(menuBar);
 
            add(toolBar, BorderLayout.NORTH);
+
     }
 }

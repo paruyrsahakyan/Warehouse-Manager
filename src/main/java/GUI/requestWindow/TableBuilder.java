@@ -4,34 +4,15 @@ import BasicNames.Name;
 import SQL.QueryFactory;
 
 import javax.swing.*;
-import javax.swing.border.Border;
 import javax.swing.table.DefaultTableModel;
-import java.awt.*;
 import java.sql.*;
 import java.util.ArrayList;
 
-public class PanelResult extends JPanel {
-    private JTable table;
-    private WindowPartsRequest windowPartsRequest;
-    private JScrollPane scrollpane;
-    private int selectedRow;
-
-    PanelResult(WindowPartsRequest windowPartsRequest) {
-
-        this.windowPartsRequest = windowPartsRequest;
-        this.setLayout(new BorderLayout());
-        this.table = new JTable();
-        this.scrollpane = new JScrollPane(table);
-        Border innerBorder = BorderFactory.createEmptyBorder(1, 1, 1, 1);
-        Border outerBorder = BorderFactory.createTitledBorder("Request Result");
-        this.setBorder(BorderFactory.createCompoundBorder(outerBorder, innerBorder));
-        this.add(scrollpane, BorderLayout.CENTER);
-
-    }
-
-    public void showResult(ArrayList<RequestedPart> partsList) {
+public class TableBuilder {
 
 
+    public void  buildTableFromReqParts(WindowPartsRequest windowPartsRequest, JPanel jPanel, ArrayList<RequestedPart> partsList){
+JTable table= new JTable();
         String[] columnNames = {"Part Number", "Req. Quantity",
                 "Can take", "Available in warehouse", "Unit", "Part Name", "Last Income Date"};
 
@@ -47,6 +28,7 @@ public class PanelResult extends JPanel {
             Statement statement = connection.createStatement();
 
             QueryFactory queryFactory = new QueryFactory();
+            System.out.println(queryFactory.partsRequest(partsList));
             ResultSet resultSet = statement.executeQuery(queryFactory.partsRequest(partsList));
 
             ResultAndRequest resultAndRequest = new ResultAndRequest();
@@ -54,8 +36,12 @@ public class PanelResult extends JPanel {
 
             DefaultTableModel defaultTableModel = new DefaultTableModel(parts, columnNames);
 
-            this.table.setModel(defaultTableModel);
-            this.table.addMouseListener(new ListenerTable(windowPartsRequest, this.table));
+            table.setModel(defaultTableModel);
+
+            table.addMouseListener(new ListenerTable(windowPartsRequest, table));
+
+
+//            this.add(table, BorderLayout.CENTER);
 
             windowPartsRequest.setVisible(true);
             statement.close();
@@ -66,17 +52,5 @@ public class PanelResult extends JPanel {
         }
 
     }
-
-    public JTable getTable() {
-        return table;
-    }
-
-    public int getSelectedRow() {
-        return selectedRow;
-    }
-
-    public void setSelectedRow(int selectedRow) {
-        this.selectedRow = selectedRow;
-    }
-
 }
+

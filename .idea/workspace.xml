@@ -5,35 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c023fa51-cdf8-4acc-8fef-78a73fedd4b3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/toDB/ImportAtionsAndParts.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/toDB/ImportAtionsAndParts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/toDB/TryingToCreateTable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/toDB/MainToDB.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/GUI/requestWindow/PanelResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/SQL/QueryFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/toDB/MainToDB.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/MTOperationsJournal.xls" afterPath="$PROJECT_DIR$/src/main/resources/MTOperationsJournal.xls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Short List.xls" afterPath="$PROJECT_DIR$/src/main/resources/Short List.xls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GUI/MenuBar/CreatingDatabaseWindow/WindowCreateDatabase.class" afterPath="$PROJECT_DIR$/target/classes/GUI/MenuBar/CreatingDatabaseWindow/WindowCreateDatabase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GUI/ToolBar/ToolBar$1.class" afterPath="$PROJECT_DIR$/target/classes/GUI/ToolBar/ToolBar$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GUI/ToolBar/ToolBar.class" afterPath="$PROJECT_DIR$/target/classes/GUI/ToolBar/ToolBar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GUI/requestWindow/DynamicTextFields.class" afterPath="$PROJECT_DIR$/target/classes/GUI/requestWindow/DynamicTextFields.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GUI/requestWindow/ListenerRequest.class" afterPath="$PROJECT_DIR$/target/classes/GUI/requestWindow/ListenerRequest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GUI/requestWindow/PanelRequestParts.class" afterPath="$PROJECT_DIR$/target/classes/GUI/requestWindow/PanelRequestParts.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GUI/requestWindow/PanelResult.class" afterPath="$PROJECT_DIR$/target/classes/GUI/requestWindow/PanelResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BasicNames/Name.class" afterPath="$PROJECT_DIR$/target/classes/BasicNames/Name.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GUI/MainWindow/MainWindow.class" afterPath="$PROJECT_DIR$/target/classes/GUI/MainWindow/MainWindow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GUI/MenuBar/MenuBarOfMainWindow$1.class" afterPath="$PROJECT_DIR$/target/classes/GUI/MenuBar/MenuBarOfMainWindow$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GUI/MenuBar/MenuBarOfMainWindow.class" afterPath="$PROJECT_DIR$/target/classes/GUI/MenuBar/MenuBarOfMainWindow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GUI/ToolBar/windowMaintenance/ListenerFindPart.class" afterPath="$PROJECT_DIR$/target/classes/GUI/ToolBar/windowMaintenance/ListenerFindPart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GUI/ToolBar/windowMaintenance/PanelResult.class" afterPath="$PROJECT_DIR$/target/classes/GUI/ToolBar/windowMaintenance/PanelResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GUI/ToolBar/windowMaintenance/WindowMaintenance.class" afterPath="$PROJECT_DIR$/target/classes/GUI/ToolBar/windowMaintenance/WindowMaintenance.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GUI/requestWindow/WindowPartsRequest.class" afterPath="$PROJECT_DIR$/target/classes/GUI/requestWindow/WindowPartsRequest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MTOperationsJournal.xls" afterPath="$PROJECT_DIR$/target/classes/MTOperationsJournal.xls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SQL/QueryFactory.class" afterPath="$PROJECT_DIR$/target/classes/SQL/QueryFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Short List.xls" afterPath="$PROJECT_DIR$/target/classes/Short List.xls" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/toDB/ConnectionWithDB.class" afterPath="$PROJECT_DIR$/target/classes/toDB/ConnectionWithDB.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/toDB/ImportToDB.class" afterPath="$PROJECT_DIR$/target/classes/toDB/ImportToDB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/xlsParser/PartInStock.class" afterPath="$PROJECT_DIR$/target/classes/xlsParser/PartInStock.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GUI/MenuBar/CreatingDatabaseWindow/WindowCreateDatabase.java" afterPath="$PROJECT_DIR$/src/main/java/GUI/MenuBar/CreatingDatabaseWindow/WindowCreateDatabase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GUI/ToolBar/ToolBar.java" afterPath="$PROJECT_DIR$/src/main/java/GUI/ToolBar/ToolBar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GUI/requestWindow/DynamicTextFields.java" afterPath="$PROJECT_DIR$/src/main/java/GUI/requestWindow/DynamicTextFields.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GUI/requestWindow/ListenerRequest.java" afterPath="$PROJECT_DIR$/src/main/java/GUI/requestWindow/ListenerRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/BasicNames/Name.java" afterPath="$PROJECT_DIR$/src/main/java/BasicNames/Name.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GUI/MainWindow/MainWindow.java" afterPath="$PROJECT_DIR$/src/main/java/GUI/MainWindow/MainWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GUI/MenuBar/MenuBarOfMainWindow.java" afterPath="$PROJECT_DIR$/src/main/java/GUI/MenuBar/MenuBarOfMainWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/ListenerFindPart.java" afterPath="$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/ListenerFindPart.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/PanelResult.java" afterPath="$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/PanelResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/WindowMaintenance.java" afterPath="$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/WindowMaintenance.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GUI/requestWindow/PanelRequestParts.java" afterPath="$PROJECT_DIR$/src/main/java/GUI/requestWindow/PanelRequestParts.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GUI/requestWindow/PanelResult.java" afterPath="$PROJECT_DIR$/src/main/java/GUI/requestWindow/PanelResult.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GUI/requestWindow/WindowPartsRequest.java" afterPath="$PROJECT_DIR$/src/main/java/GUI/requestWindow/WindowPartsRequest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SQL/QueryFactory.java" afterPath="$PROJECT_DIR$/src/main/java/SQL/QueryFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/toDB/ConnectionWithDB.java" afterPath="$PROJECT_DIR$/src/main/java/toDB/ConnectionWithDB.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/toDB/ImportToDB.java" afterPath="$PROJECT_DIR$/src/main/java/toDB/ImportToDB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/xlsParser/PartInStock.java" afterPath="$PROJECT_DIR$/src/main/java/xlsParser/PartInStock.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,31 +57,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ListenerFindPart.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/ListenerFindPart.java">
+      <file leaf-file-name="ListenerTable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/ListenerTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="520">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1513#1528#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="D275A_5.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/machine/D275A_5.java">
+      <file leaf-file-name="WindowPartsRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/WindowPartsRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="-884">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#2296#2297#0" expanded="true" />
+                <element signature="e#2330#2331#0" expanded="true" />
+                <element signature="e#2596#2597#0" expanded="true" />
+                <element signature="e#2637#2638#0" expanded="true" />
+                <element signature="e#2706#2707#0" expanded="true" />
+                <element signature="e#2766#2767#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SQL/QueryFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="133" column="26" lean-forward="true" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
+              <folding>
+                <element signature="method#QueryFactory#0;class#QueryFactory#0" expanded="false" />
+                <element signature="method#tableOfParts#0;class#QueryFactory#0" expanded="false" />
+                <element signature="method#tableOfActions#0;class#QueryFactory#0" expanded="false" />
+                <element signature="method#tableOfExchange#0;class#QueryFactory#0" expanded="false" />
+                <element signature="method#actionInsertQuery#0;class#QueryFactory#0" expanded="false" />
+                <element signature="method#partInsertQuery#0;class#QueryFactory#0" expanded="false" />
+                <element signature="method#addExchangeableRow#0;class#QueryFactory#0" expanded="false" />
+                <element signature="method#addExchangeableParts#0;class#QueryFactory#0" expanded="false" />
+                <element signature="e#6904#6912#0" expanded="true" />
+                <marker date="1512133673062" expanded="true" signature="7717:7809" ph="UPDATE wareh... " />
+                <marker date="1512133673062" expanded="true" signature="7717:7900" ph="UPDATE wareh... " />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="PanelResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/PanelResult.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/PanelResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+            <state relative-caret-position="229">
+              <caret line="25" column="80" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="25" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,44 +121,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultTableModel.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.desktop/javax/swing/table/DefaultTableModel.java">
+      <file leaf-file-name="PanelExchangeParts.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/PanelExchangeParts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="520" column="17" lean-forward="true" selection-start-line="520" selection-start-column="17" selection-end-line="520" selection-end-column="17" />
+            <state relative-caret-position="203">
+              <caret line="70" column="30" lean-forward="true" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
               <folding>
-                <element signature="e#17903#17904#0" expanded="true" />
-                <element signature="e#17972#17973#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2568#2569#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventDispatchThread.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.desktop/java/awt/EventDispatchThread.java">
+      <file leaf-file-name="ListenerExchangeTable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/ListenerExchangeTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="757">
-              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="78">
+              <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PanelReqParts.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/PanelReqParts.java">
+      <file leaf-file-name="ListenerRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/ListenerRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResultAndRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/ResultAndRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="31" column="69" lean-forward="false" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+            <state relative-caret-position="390">
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -161,16 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Names/BasicNames.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BasicNames/BasicNames.java" />
-        <option value="$PROJECT_DIR$/src/main/java/toDB/MainToDB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xlsParser/Action.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BasicNames/Name.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GUI/MenuBar/CreatingDatabaseWindow/ListenerForOpenButtom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xlsParser/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/toDB/FromXLStoDB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GUI/MenuBar/CreatingDatabaseWindow/ListenerForCreatButton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GUI/MenuBar/CreatingDatabaseWindow/ListenerForCreateButton2.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/MenuBar/CreatingDatabaseWindow/ListenerForCreateButton.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowPartsRequest/WindowPartRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/requestWindow/RequestWindow.java" />
@@ -199,19 +213,29 @@
         <option value="$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/machine/ListenerFindPart.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/PanelMachines.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/TM/TMPart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/toDB/ImportToDB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/toDB/ConnectionWithDB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SQL/QueryFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GUI/requestWindow/PanelRequestParts.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/requestWindow/RequestedPart.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/requestWindow/ListenerRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GUI/requestWindow/WindowPartsRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/WindowMaintenance.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GUI/requestWindow/PanelResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/PanelReqParts.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/CellEditor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/PanelResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/ListenerFindPart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/toDB/ConnectionWithDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/PanelResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/MenuBar/MenuBarOfMainWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/MainWindow/MainWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BasicNames/Name.java" />
+        <option value="$PROJECT_DIR$/src/main/java/toDB/ImportToDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/MenuBar/ExchangeableParts/WinExchangeableParts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/MenuBar/ExchangeableParts/ListenerButtonSave.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/requestWindow/TableBuildReqParts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/requestWindow/TableBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/requestWindow/PanelResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/requestWindow/PanelRequestParts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SQL/QueryFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/WindowMaintenance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/requestWindow/WindowPartsRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/requestWindow/ListenerExchangeTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/requestWindow/ListenerTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/requestWindow/PanelExchangeParts.java" />
       </list>
     </option>
   </component>
@@ -240,8 +264,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="89" />
-    <option name="y" value="55" />
+    <option name="x" value="465" />
+    <option name="y" value="162" />
     <option name="width" value="985" />
     <option name="height" value="577" />
   </component>
@@ -279,9 +303,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -339,9 +364,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="GUI" type="462c0819:PsiDirectoryNode" />
-              <item name="ToolBar" type="462c0819:PsiDirectoryNode" />
-              <item name="windowMaintenance" type="462c0819:PsiDirectoryNode" />
+              <item name="SQL" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="warehouseManager" type="b2602c69:ProjectViewProjectNode" />
@@ -349,10 +372,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="GUI" type="462c0819:PsiDirectoryNode" />
-              <item name="ToolBar" type="462c0819:PsiDirectoryNode" />
-              <item name="windowMaintenance" type="462c0819:PsiDirectoryNode" />
-              <item name="machine" type="462c0819:PsiDirectoryNode" />
+              <item name="toDB" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="warehouseManager" type="b2602c69:ProjectViewProjectNode" />
@@ -362,7 +382,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,7 +396,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="Object&#9;PSI&#9;JAVA://java.lang.Object&#10;liste&#9;PSI&#9;JAVA://GUI.ToolBar.windowMaintenance.PanelReqParts.ListenerFindPart&#10;Strin&#9;PSI&#9;JAVA://java.lang.String&#10;JCombo&#9;PSI&#9;JAVA://javax.swing.JComboBox&#10;getComponent&#9;PSI&#9;JAVA://java.awt.Container#getComponent" />
+    <property name="SearchEverywhereHistoryKey" value="TableModelL&#9;PSI&#9;JAVA://javax.swing.event.TableModelListener&#10;Object&#9;PSI&#9;JAVA://java.lang.Object&#10;liste&#9;PSI&#9;JAVA://GUI.ToolBar.windowMaintenance.PanelReqParts.ListenerFindPart&#10;Strin&#9;PSI&#9;JAVA://java.lang.String&#10;JCombo&#9;PSI&#9;JAVA://javax.swing.JComboBox&#10;getComponent&#9;PSI&#9;JAVA://java.awt.Container#getComponent" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
@@ -677,12 +696,18 @@
       <workItem from="1511346978008" duration="28700000" />
       <workItem from="1511463415576" duration="5024000" />
       <workItem from="1511521636869" duration="10508000" />
-      <workItem from="1511619279055" duration="7264000" />
+      <workItem from="1511619279055" duration="9794000" />
+      <workItem from="1511710497166" duration="582000" />
+      <workItem from="1511860769956" duration="1285000" />
+      <workItem from="1511862926144" duration="5284000" />
+      <workItem from="1511936724730" duration="28528000" />
+      <workItem from="1512038490477" duration="26340000" />
+      <workItem from="1512123792313" duration="15030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="430914000" />
+    <option name="totallyTimeSpent" value="510493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="7" />
@@ -690,18 +715,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32077625" sideWeight="0.47584188" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32077625" sideWeight="0.46354166" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31621003" sideWeight="0.53125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32077625" sideWeight="0.5364583" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10363924" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14726028" sideWeight="0.46875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.336758" sideWeight="0.45416668" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24427083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -737,10 +762,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14726028" sideWeight="0.46875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1324201" sideWeight="0.46875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24270834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26822916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -781,7 +806,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/GUI/MainWindow/MainWindow.java</url>
-          <line>20</line>
+          <line>22</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
@@ -841,6 +866,21 @@
           </properties>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/SQL/QueryFactory.java</url>
+          <properties class="SQL.QueryFactory">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/SQL/QueryFactory.java</url>
+          <line>93</line>
+          <properties class="SQL.QueryFactory" method="partInsertQuery">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/GUI/MenuBar/CreatingDatabaseWindow/ListenerForCreateButton.java</url>
           <line>11</line>
@@ -854,113 +894,11 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="32" />
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.desktop/javax/swing/table/TableModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="143" column="0" lean-forward="true" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.desktop/javax/swing/table/AbstractTableModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="140" column="0" lean-forward="true" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.sql/java/sql/ResultSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="226" column="49" lean-forward="false" selection-start-line="226" selection-start-column="49" selection-end-line="226" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.desktop/java/awt/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="1506" column="16" lean-forward="false" selection-start-line="1506" selection-start-column="16" selection-end-line="1506" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/ToolBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/MainWindow/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.desktop/javax/swing/DefaultComboBoxModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="91" column="49" lean-forward="false" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.desktop/javax/swing/JPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1710">
-          <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29796">
-          <caret line="1208" column="51" lean-forward="false" selection-start-line="1208" selection-start-column="51" selection-end-line="1208" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/lang/StringLatin1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1534">
-          <caret line="102" column="22" lean-forward="false" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="476" column="19" lean-forward="false" selection-start-line="476" selection-start-column="19" selection-end-line="476" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/util/TreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="91" column="21" lean-forward="false" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/CompoTM.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/MainWindow/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/machine/HD785_7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/machine/Machine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
@@ -1004,13 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-907">
-          <caret line="129" column="19" lean-forward="false" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/TM/TMPartsList.java" />
     <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.desktop/javax/swing/text/JTextComponent.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1044,9 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="758">
           <caret line="31" column="58" lean-forward="false" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1054,7 +982,198 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="37" column="3" lean-forward="true" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.desktop/java/awt/Dimension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="120" column="11" lean-forward="false" selection-start-line="120" selection-start-column="11" selection-end-line="120" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/ComboMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/CellEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="849" column="0" lean-forward="false" selection-start-line="849" selection-start-column="0" selection-end-line="849" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.desktop/javax/swing/table/DefaultTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="520" column="17" lean-forward="false" selection-start-line="520" selection-start-column="17" selection-end-line="520" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/PanelReqParts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="378" column="23" lean-forward="true" selection-start-line="378" selection-start-column="23" selection-end-line="378" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.sql/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.sql/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="224" column="31" lean-forward="false" selection-start-line="224" selection-start-column="31" selection-end-line="224" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/MenuBar/MenuBarOfMainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/machine/D275A_5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/ListenerFindPart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/toDB/ImportToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="69" column="56" lean-forward="true" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BasicNames/Name.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/toDB/FromXLStoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/PanelResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/MainWindow/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.desktop/javax/swing/event/TableModelListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/MenuBar/ExchangeableParts/ListenerButtonSave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/MenuBar/ExchangeableParts/WinExchangeableParts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.8-dmr/mysql-connector-java-8.0.8-dmr.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/TableBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="36" column="77" lean-forward="false" selection-start-line="36" selection-start-column="77" selection-end-line="36" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/toDB/ConnectionWithDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/RequestedPart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.desktop/java/awt/EventDispatchThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1066,187 +1185,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/toDB/FromXLStoDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/toDB/ImportToDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="46" column="48" lean-forward="false" selection-start-line="43" selection-start-column="3" selection-end-line="46" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/RequestedPart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/PanelRequestParts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1638">
-          <caret line="75" column="53" lean-forward="false" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/ListenerRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="780">
+          <caret line="82" column="7" lean-forward="false" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SQL/QueryFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.desktop/java/awt/Dimension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="120" column="11" lean-forward="false" selection-start-line="120" selection-start-column="11" selection-end-line="120" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/toDB/ConnectionWithDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/WindowMaintenance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#867#868#0" expanded="false" />
-            <element signature="e#903#904#0" expanded="false" />
-            <element signature="e#946#947#0" expanded="false" />
-            <element signature="e#980#981#0" expanded="false" />
-            <element signature="e#1027#1028#0" expanded="false" />
-            <element signature="e#1063#1064#0" expanded="false" />
-            <marker date="1511596130816" expanded="true" signature="822:1064" ph="..." />
-          </folding>
+        <state relative-caret-position="286">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/PanelResult.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/MainWindow/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="50" />
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/WindowPartsRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        <state relative-caret-position="-884">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#2087#2088#0" expanded="false" />
-            <element signature="e#2121#2122#0" expanded="false" />
+            <element signature="e#2296#2297#0" expanded="true" />
+            <element signature="e#2330#2331#0" expanded="true" />
+            <element signature="e#2596#2597#0" expanded="true" />
+            <element signature="e#2637#2638#0" expanded="true" />
+            <element signature="e#2706#2707#0" expanded="true" />
+            <element signature="e#2766#2767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/ListenerExchangeTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/ResultAndRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="31" column="69" lean-forward="false" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+        <state relative-caret-position="0">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/ComboMachine.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/ListenerRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <marker date="1511363742859" expanded="true" signature="1342:1343" ph="..." />
-            <marker date="1511363742859" expanded="false" signature="1342:1491" ph="..." />
-            <marker date="1511363742859" expanded="true" signature="1343:1491" ph="..." />
-          </folding>
+        <state relative-caret-position="390">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/CellEditor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/ListenerTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="520">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#1513#1528#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.desktop/java/awt/EventDispatchThread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/PanelResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.desktop/javax/swing/table/DefaultTableModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="520" column="17" lean-forward="true" selection-start-line="520" selection-start-column="17" selection-end-line="520" selection-end-column="17" />
-          <folding>
-            <element signature="e#17903#17904#0" expanded="true" />
-            <element signature="e#17972#17973#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/machine/D275A_5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/PanelResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+        <state relative-caret-position="229">
+          <caret line="25" column="80" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="25" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/PanelReqParts.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SQL/QueryFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="359">
+          <caret line="133" column="26" lean-forward="true" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
+          <folding>
+            <element signature="method#QueryFactory#0;class#QueryFactory#0" expanded="false" />
+            <element signature="method#tableOfParts#0;class#QueryFactory#0" expanded="false" />
+            <element signature="method#tableOfActions#0;class#QueryFactory#0" expanded="false" />
+            <element signature="method#tableOfExchange#0;class#QueryFactory#0" expanded="false" />
+            <element signature="method#actionInsertQuery#0;class#QueryFactory#0" expanded="false" />
+            <element signature="method#partInsertQuery#0;class#QueryFactory#0" expanded="false" />
+            <element signature="method#addExchangeableRow#0;class#QueryFactory#0" expanded="false" />
+            <element signature="method#addExchangeableParts#0;class#QueryFactory#0" expanded="false" />
+            <element signature="e#6904#6912#0" expanded="true" />
+            <marker date="1512133673062" expanded="true" signature="7717:7809" ph="UPDATE wareh... " />
+            <marker date="1512133673062" expanded="true" signature="7717:7900" ph="UPDATE wareh... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/ToolBar/windowMaintenance/ListenerFindPart.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/requestWindow/PanelExchangeParts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="203">
+          <caret line="70" column="30" lean-forward="true" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2568#2569#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

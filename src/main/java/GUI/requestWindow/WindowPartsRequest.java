@@ -10,12 +10,16 @@ public class WindowPartsRequest extends JFrame {
     private PanelResult panelResult;
     private ArrayList<DynamicTextFields> listTextField;
     private int partCursor;
+    private PanelExchangeParts panelExchangeParts;
+    private boolean exchangeTableEmpty;
 
     public WindowPartsRequest() {
         partCursor = -1;
         panelRequestParts = new PanelRequestParts(this);
         panelResult = new PanelResult(this);
+        panelExchangeParts = new PanelExchangeParts(this);
         listTextField = new ArrayList<DynamicTextFields>();
+
 
         this.setTitle("PartsRequest");
         this.setLocationByPlatform(true);
@@ -23,6 +27,7 @@ public class WindowPartsRequest extends JFrame {
         this.setLayout(new BorderLayout());
         this.add(panelRequestParts, BorderLayout.WEST);
         this.add(panelResult, BorderLayout.CENTER);
+        this.add(panelExchangeParts, BorderLayout.SOUTH);
         this.setVisible(true);
 
     }
@@ -42,11 +47,22 @@ public class WindowPartsRequest extends JFrame {
         return panelResult;
     }
 
+    public PanelExchangeParts getPanelExchangeParts() {
+        return panelExchangeParts;
+    }
 
-      public  ArrayList<RequestedPart > getRequestedParts() {
+    public  ArrayList<RequestedPart > getRequestedParts() {
         return this.panelRequestParts.getPartsList();
     }
 
 
+
+    public boolean isExchangeTableEmpty() {
+        return exchangeTableEmpty;
+    }
+
+    public void setExchangeTableEmpty(boolean exchangeTableEmpty) {
+        this.exchangeTableEmpty = exchangeTableEmpty;
+    }
 }
 
